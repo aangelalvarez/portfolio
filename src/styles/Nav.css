@@ -1,0 +1,50 @@
+.Nav {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navIcon {
+    color:white;
+    width: 7vh;
+    height: 7vh;
+    max-width: 50px;
+    max-height: 50px;
+    transition: 0.2s;
+}
+
+.navLink {
+    width: 7vh;
+    height: 7vh;
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 12px;
+    z-index: 20;
+}
+
+.navIcon:hover {
+    cursor: pointer;
+}
+
+.navLink:hover {
+    cursor: pointer;
+}
+
+.gitHub:hover {
+    color:black;
+}
+
+.linkedIn:hover {
+    color:rgb(0, 98, 255)
+}
+
+.resume:hover {
+    color: rgb(235, 35, 218)
+}
+
+@media screen and (max-width: 1200px) {
+    .Nav {width: 100%}
+}

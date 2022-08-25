@@ -1,0 +1,124 @@
+.Header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left, #00ff85, #00f7bf, #00f7e3, #00f7f7, #00eaff, #3abeff, #67b0ff, #8ea1ff, #9e97ff, #b489ff, #ce77ff, #e95ffb);    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+.leftContainer {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.rightContainer {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    text-align: center;
+}
+
+.headerMsg {
+    z-index:5;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+    transition: 0.3s;
+    padding: 5% 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.2);}
+
+.hey {
+    color: white;
+    font-weight:bolder;
+    margin: 10px;
+    letter-spacing: 1vh;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.name {
+    color: white;
+    font-weight:bolder;
+    margin: 10px;
+    letter-spacing: 1vh;
+    transition: 0.3s;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.programmer {
+    color: white;
+    font-weight:bolder;
+    margin: 10px;
+    letter-spacing: 1vh;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+.img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 70vh;
+    max-height: 40vw;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+.codeSymbol {
+    color: white;
+    font-size: 10vh;
+    transition: 1s;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    width:auto;
+}
+
+.codeSymbolContainer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10vh;
+    transition: 1.5s;
+}
+
+.headerMsg p {
+    text-shadow: 3px 3px #686868;
+}
+
+@media screen and (min-width: 1600px) {
+    .hey {
+        font-size:40px;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    .programmer {
+        font-size: 40px;
+    }
+
+    .codeSymbol {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rightContainer {display: none;}
+    .leftContainer {width: 100%;}
+    .codeSymbol {font-size: 60px;}
+}
+
