@@ -23,7 +23,7 @@ const About: React.FC = () => {
                 that is when I discovered my passion for coding.
                 I learned a bunch of programming languages, and once I felt comfortable enough with coding, I knew it was time to choose a path.
                 One of the reasons that I got into coding was that it has always been a dream of mine to be an entrepreneur, and I though well if I ever
-                want to do that, I need to be on as many platforms as possible, and most devices are able to browse the web so I said why not? And I dived into the world of web development;
+                want to do that I need to be on as many platforms as possible; and, most devices are able to browse the web so I said why not? And I dived into the world of web development;
                 it was a wonderful process. Software is truly incredible because it is the ultimate tool, a tool that can turn
                 into anything you wish it to be, it is the closest thing to magic that exists in this world.             
 
