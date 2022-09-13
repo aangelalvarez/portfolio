@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
             ]} 
             hasBeenDeployed={false}
             hasSourceCode={true}
-            sourceCode='https://github.com/aangelalvarez/portfolio'
+            sourceCode='https://github.com/aangelalvarez/swipe'
             linkToProject='#' 
             description={[
                 'Full stack Django web application',
