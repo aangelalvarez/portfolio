@@ -22,10 +22,10 @@ const Projects: React.FC = () => {
                 'CSS',
                 'SQLite',
             ]} 
-            hasBeenDeployed={false}
+            hasBeenDeployed={true}
             hasSourceCode={true}
             sourceCode='https://github.com/aangelalvarez/swipe'
-            linkToProject='#' 
+            linkToProject='https://angel908.pythonanywhere.com/' 
             description={[
                 'Full stack Django web application',
                 'With this app users can create their own rooms and chat with each other',
@@ -38,28 +38,6 @@ const Projects: React.FC = () => {
         </Project>
 
         <Project 
-            name='URL Shortener' 
-            technologies={[
-                'JavaScript', 
-                'TypeScript', 
-                'Node',
-                'React',
-                'Express',
-                'MongoDB']} 
-            hasBeenDeployed={false}
-            hasSourceCode={true}
-            sourceCode='https://github.com/aangelalvarez/url-shortener' 
-            description={[
-                'A simple full-stack web application that can turn any link into a short version of the same, which can then be used as a regular link',
-                'The short version of the link redirects the user to the original link',
-                'Implemented both front-end and back-end to make a fully functional application',
-                'Handled HTML DOM events'
-            ]} 
-            image={urlShortenerImg} 
-            themeColor='#f21b3f'>
-        </Project>
-
-        <Project 
             name='Countries API' 
             technologies={[
                 'JavaScript', 
@@ -69,7 +47,7 @@ const Projects: React.FC = () => {
                 'MongoDB']} 
             hasBeenDeployed={true}
             hasSourceCode={true}
-            linkToProject='https://thawing-brook-65052.herokuapp.com/' 
+            linkToProject='https://countriesapi.fly.dev/' 
             sourceCode='https://github.com/aangelalvarez/countryAPI' 
             description={[
                 'API that allows users to search what languages are spoken in a specific country, as well as in what countries is a certain language spoken',
@@ -99,6 +77,28 @@ const Projects: React.FC = () => {
             ]} 
             image={clolorImg} 
             themeColor='#626ee3'>
+        </Project>
+
+        <Project 
+            name='URL Shortener' 
+            technologies={[
+                'JavaScript', 
+                'TypeScript', 
+                'Node',
+                'React',
+                'Express',
+                'MongoDB']} 
+            hasBeenDeployed={false}
+            hasSourceCode={true}
+            sourceCode='https://github.com/aangelalvarez/url-shortener' 
+            description={[
+                'A simple full-stack web application that can turn any link into a short version of the same, which can then be used as a regular link',
+                'The short version of the link redirects the user to the original link',
+                'Implemented both front-end and back-end to make a fully functional application',
+                'Handled HTML DOM events'
+            ]} 
+            image={urlShortenerImg} 
+            themeColor='#f21b3f'>
         </Project>
 
     </div>
