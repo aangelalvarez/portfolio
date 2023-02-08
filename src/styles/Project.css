@@ -6,6 +6,7 @@
 
 .card {
     width: 80%;
+    transition: all 0.3s;
     max-width: 1200px;
     padding: 20px;
     margin: auto;
@@ -14,6 +15,11 @@
     background-color: #ffffff;
     box-shadow: 0 0 50px -10px rgb(0 0 0 / 10%);
     min-height: min-content;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 0 50px -10px rgb(0 0 0 / 30%);
 }
 
 .leftColumn {
@@ -70,6 +76,7 @@
     padding: 12px;
     border-radius: 12px;
     text-decoration: none;
+    margin:4px;
 }
 
 .links a:hover {
@@ -93,6 +100,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .links {
+        justify-content:center;
+        display: flex;
+        padding: 20px 0;
+    }
+
     .card {
         width: 100%;
         padding: 20px;

@@ -27,11 +27,11 @@ const Projects: React.FC = () => {
             sourceCode='https://github.com/aangelalvarez/swipe'
             linkToProject='https://angel908.pythonanywhere.com/' 
             description={[
-                'Full stack Django web application',
-                'With this app users can create their own rooms and chat with each other',
-                'Some functionalities such as creating rooms are limited to users who are logged in',
-                'The host of a room can edit/delete it, the author of a message can delete it',
-                'Utilized cookies and sessions'
+                '● Full stack Django web application',
+                '● With this app users can create their own rooms and chat with each other',
+                '● Some functionalities such as creating rooms are limited to users who are logged in',
+                '● The host of a room can edit/delete it, the author of a message can delete it',
+                '● Utilized cookies and sessions'
             ]} 
             image={swipeImg} 
             themeColor='#11967e'>
@@ -50,10 +50,10 @@ const Projects: React.FC = () => {
             linkToProject='https://countriesapi.fly.dev/' 
             sourceCode='https://github.com/aangelalvarez/countryAPI' 
             description={[
-                'API that allows users to search what languages are spoken in a specific country, as well as in what countries is a certain language spoken',
-                'Developed functions to handle CRUD operations on the database via route handlers', 
-                'Created a custom error handler, as well as an invalid route/request handler', 
-                'Included asynchronous handlers to successfuly make requests to the database']} 
+                '● API that allows users to search what languages are spoken in a specific country, as well as in what countries is a certain language spoken',
+                '● Developed functions to handle CRUD operations on the database via route handlers', 
+                '● Created a custom error handler, as well as an invalid route/request handler', 
+                '● Included asynchronous handlers to successfuly make requests to the database']} 
             image={countryAPIImg}
             themeColor='#f37f1b'>
         </Project>
@@ -70,10 +70,10 @@ const Projects: React.FC = () => {
             linkToProject='https://aangelalvarez.github.io/clolor/' 
             sourceCode='https://github.com/aangelalvarez/clolor' 
             description={[
-                'Clolor is a colorful clock app that will let you choose the font and background color of your clock from over 100+ different colors',
-                '3 Different Modes: clock, stopwatch, and timer',
-                'Built using React hooks, context, and state',
-                'Implemented custom hour-getting functions to be able to work in any region over the world'
+                '● Clolor is a colorful clock app that will let you choose the font and background color of your clock from over 100+ different colors',
+                '● 3 Different Modes: clock, stopwatch, and timer',
+                '● Built using React hooks, context, and state',
+                '● Implemented custom hour-getting functions to be able to work in any region over the world'
             ]} 
             image={clolorImg} 
             themeColor='#626ee3'>
@@ -92,10 +92,10 @@ const Projects: React.FC = () => {
             hasSourceCode={true}
             sourceCode='https://github.com/aangelalvarez/url-shortener' 
             description={[
-                'A simple full-stack web application that can turn any link into a short version of the same, which can then be used as a regular link',
-                'The short version of the link redirects the user to the original link',
-                'Implemented both front-end and back-end to make a fully functional application',
-                'Handled HTML DOM events'
+                '● A simple full-stack web application that can turn any link into a short version of the same, which can then be used as a regular link',
+                '● The short version of the link redirects the user to the original link',
+                '● Implemented both front-end and back-end to make a fully functional application',
+                '● Handled HTML DOM events'
             ]} 
             image={urlShortenerImg} 
             themeColor='#f21b3f'>
