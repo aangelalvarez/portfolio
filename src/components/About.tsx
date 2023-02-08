@@ -18,6 +18,7 @@ const About: React.FC = () => {
                 into anything you wish it to be, it is the closest thing to magic that exists in this world.             
 
             </p>
+            <footer className="email">You can contact me at 👉 <footer className="emailColor">angelalvatech@gmail.com</footer></footer>
             <footer className='footer'>Angel Alvarez {year}</footer>
         </div>
     );

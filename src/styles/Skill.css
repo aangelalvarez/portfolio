@@ -6,8 +6,16 @@
     max-width: 1200px;
     width: 80%;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: all 0.2s ease-in-out;
+}
+.skillContainer:hover {
+    transform:scale(1.1);
+    filter:saturate(300%);
+    cursor: pointer;
 }
 
 .skillName {
@@ -24,6 +32,7 @@
     width: 100%;
     background-color: white;
     box-shadow: 0 0 50px 0px rgb(0 0 0 / 12%);
+    transition:all 0.3s;
 }
 
 .percentageBar {

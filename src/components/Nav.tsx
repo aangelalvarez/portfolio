@@ -8,13 +8,13 @@ import { faFileLines } from '@fortawesome/free-regular-svg-icons';
 const Nav: React.FC = () => {
     return (
         <div className='Nav'>
-            <a className='navLink' href='https://github.com/aangelalvarez' target='_blank'>
+            <a className='navLink' href='https://github.com/aangelalvarez' target='_blank' title="GitHub">
                 <FontAwesomeIcon className='navIcon gitHub' icon={faGithub}/>    
             </a>
-            <a className='navLink' href='https://www.linkedin.com/in/angel-alvarez-904004205/' target='_blank'>
+            <a className='navLink' href='https://www.linkedin.com/in/angel-alvarez-904004205/' target='_blank' title="LinkedIn">
                 <FontAwesomeIcon className='navIcon linkedIn' icon={faLinkedin}/>    
             </a>
-            <a className='navLink' href='https://docs.google.com/document/d/1LF9AeeHKs5bVU5GwVqmVMRSUDcxPxCcJ-w5DBPdkFW4/edit?usp=sharing' target='_blank'>
+            <a className='navLink' href='https://docs.google.com/document/d/1LF9AeeHKs5bVU5GwVqmVMRSUDcxPxCcJ-w5DBPdkFW4/edit?usp=sharing' target='_blank' title="Resume">
                 <FontAwesomeIcon className='navIcon resume' icon={faFileLines}/>    
             </a>
         </div>

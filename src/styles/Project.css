@@ -18,7 +18,7 @@
 }
 
 .card:hover {
-    transform: translateY(-20px);
+    transform: scale(1.05,1.05);
     box-shadow: 0 0 50px -10px rgb(0 0 0 / 30%);
 }
 
@@ -37,7 +37,10 @@
     flex: 45%;
     display: flex;
     justify-content: center;
+    transition:all 0.3s;
 }
+
+
 
 .image {
     width: 90%;
@@ -77,10 +80,12 @@
     border-radius: 12px;
     text-decoration: none;
     margin:4px;
+    transition: all 0.3s;
 }
 
 .links a:hover {
     filter:saturate(300%);
+    transform: translateY(-2px);
 }
 
 .projectName {
@@ -97,6 +102,12 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+@media screen and (min-width:1000px) {
+    .rightColumn:hover {
+        transform:scale(1.5,1.5);
+    }
 }
 
 @media screen and (max-width: 1000px) {

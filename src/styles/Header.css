@@ -32,7 +32,11 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.2);}
+    background-color:rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 50px -10px rgb(0 0 0 / 20%);
+}
+
+
 
 .hey {
     color: white;
@@ -51,7 +55,10 @@
     transition: 0.3s;
     font-size: 40px;
     font-family: 'Montserrat', sans-serif;
+}
 
+.headerMsg:hover {
+    box-shadow: 0 0 50px -10px rgb(0 0 0 / 20%);
 }
 
 .programmer {
@@ -71,8 +78,14 @@
     transform: translate(-50%, -50%);
     height: 70vh;
     max-height: 40vw;
-    border: 3px solid white;
+    border: 3px solid rgb(199, 199, 199);
     border-radius: 12px;
+    transition: all 0.3s;
+}
+
+.img:hover {
+    box-shadow: 0 0 50px -10px rgb(0 0 0 / 100%);
+    border: 3px solid white;
 }
 
 .codeSymbol {
