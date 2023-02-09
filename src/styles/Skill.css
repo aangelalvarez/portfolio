@@ -27,6 +27,7 @@
 
 .fullBar {
     position:relative;
+    margin-left:10px;
     height: 20px;
     border-radius: 1000px;
     width: 100%;
