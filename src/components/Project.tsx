@@ -11,7 +11,7 @@ type projectProps = {
     themeColor: string;
     hasBeenDeployed: boolean;
     hasSourceCode: boolean;
-};
+}; 
 
 const Project: React.FC<projectProps> = (props) => {
 
