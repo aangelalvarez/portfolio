@@ -1,0 +1,107 @@
+.Experience {
+    width: 100%;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    padding: 40px;
+}
+
+
+.firstHalf {
+    flex: 35%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.verticalCentering {
+    text-align: center;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.secondHalf {
+    flex: 65%;
+    display: flex;
+    text-align: justify;
+    line-height: 1.6;  
+    justify-content: center;
+    transition:all 0.3s;
+}
+
+.grayBoldText {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold ;
+    color: #445d6e;
+}
+
+.companyLogoContainer {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+
+.companyLogo {
+    max-width: 70%;
+    height:auto;
+    margin: 0 5%;
+    transition: all 2s ease-in-out;
+    position: relative;
+    object-fit: contain;
+}
+
+.technology {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:bold ;
+    color: #445d6e;
+}
+
+.companyName {
+    font-family: "Ubuntu","Helvetica","Arial",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+    padding: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+
+@media screen and (min-width:1000px) {
+    .companyLogoContainer:hover .companyLogo{
+        transform: rotate(1440deg);
+    }
+
+    .companyName:hover {
+        transform: scale(1.5,1.5);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .companyLogo {
+        transition: all 2s ease-in-out;
+    }
+
+    .firstHalf {
+        flex: 100%;
+        margin: 20px 0;
+    }
+    
+    .secondHalf {
+        flex: 100%;
+        margin: 30px 0 ;
+
+    }    
+
+    .companyLogo {
+        max-width: 50%;
+    }
+
+    .companyName {
+        font-size: 40px;
+    }
+}

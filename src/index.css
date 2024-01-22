@@ -8,3 +8,8 @@ html, body, h1 {
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+* { 
+  outline: 1px solid red;
+  outline-offset: -1px;
+} */

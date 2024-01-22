@@ -38,7 +38,7 @@ const Project: React.FC<projectProps> = (props) => {
                 </div>
                 <div className='middleColumn' >
                     <div className='contentAligner' style={{margin: '0 20px'}}>
-                        <div className='descriptions' >{descriptionArray}</div>
+                        <div className='description' >{descriptionArray}</div>
                     </div>
                 </div>
                 <div className='rightColumn'>
