@@ -19,7 +19,7 @@ const Header: React.FC = () => {
                 </div>
             </div>
             <div className = 'rightContainer'>
-                <img className='img' src={img}></img>
+                <img className='img' src={img} alt="code"></img>
             </div>
         </div>
     );

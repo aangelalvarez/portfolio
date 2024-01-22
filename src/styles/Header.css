@@ -32,6 +32,7 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    transition: all ease-in-out 0.3s;
     background-color:rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 50px -10px rgb(0 0 0 / 20%);
 }
@@ -57,10 +58,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.headerMsg:hover {
-    box-shadow: 0 0 50px -10px rgb(0 0 0 / 20%);
-}
-
 .programmer {
     color: white;
     font-weight:bolder;
@@ -80,12 +77,15 @@
     max-height: 40vw;
     border: 3px solid rgb(199, 199, 199);
     border-radius: 12px;
-    transition: all 0.3s;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 0 0 50px -10px rgb(0, 0, 0);
 }
 
 .img:hover {
-    box-shadow: 0 0 50px -10px rgb(0 0 0 / 100%);
+    box-shadow: 0 0 50px 10px rgb(255, 255, 255);
     border: 3px solid white;
+    transition: all ease-in-out 0.3s;
+    filter:saturate(200%);
 }
 
 .codeSymbol {
@@ -135,3 +135,13 @@
     .codeSymbol {font-size: 60px;}
 }
 
+@media screen and (min-width: 1200px) {
+    .headerMsg:hover {
+        background-color:rgba(0, 0, 0, 0.2);
+        border: 2px solid white;
+    }
+    .img {
+        max-width: 800px;
+        height: auto;
+    }
+}

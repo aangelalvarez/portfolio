@@ -22,7 +22,7 @@ const Experience: React.FC<experienceProps> = (props) => {
                     <div className='contentAligner verticalCentering'>
                         <div>
                             <p className='companyName' style={{color: props.colorTheme}}>{props.company}</p>
-                            <p className='grayBoldText'>{props.positon}</p>
+                            <p className='grayBoldText' style={{fontSize: "22px"}}>{props.positon}</p>
                             <p className='grayBoldText'>{props.duration}</p>
                         </div>
                         <div className='companyLogoContainer'>
