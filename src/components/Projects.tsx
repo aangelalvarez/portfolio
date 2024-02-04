@@ -27,11 +27,10 @@ const Projects: React.FC = () => {
             sourceCode='https://github.com/aangelalvarez/swipe'
             linkToProject='https://angel908.pythonanywhere.com/' 
             description={[
-                '● Full stack Django web application',
-                '● With this app users can create their own rooms and chat with each other',
+                '● Full stack chat application where users can create their own group chats and chat with each other',
                 '● Some functionalities such as creating rooms are limited to users who are logged in',
                 '● The host of a room can edit/delete it, the author of a message can delete it',
-                '● Utilized cookies and sessions'
+                '● Added cookies and sessions to improve user experience'
             ]} 
             image={swipeImg} 
             themeColor='#11967e'>
