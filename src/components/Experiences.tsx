@@ -13,7 +13,7 @@ const Experiences: React.FC = () => {
             <Experience
                 company='Amazon'
                 positon='Software Development Engineer Intern'
-                duration = 'May 2023 - Aug 2023'
+                duration = 'Seattle, WA | May 2023 - Aug 2023'
                 details={[
                     '● Implemented automated applications for business metrics collection and visualization using Python, SQL, S3, Cloudwatch, SNS, Quicksight, and Lambda',
                     '● Architected and developed an event-driven email notification service using Lambda, SNS, and CloudWatch',
