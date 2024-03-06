@@ -10,12 +10,12 @@ const About: React.FC = () => {
             <h1 className='aboutTitle'>About Me</h1>
             <p className='aboutMe'>
             I can still remember the first time I got to use a computer, it felt as if I had discovered a 
-            new world, so much to explore and do. That was the first time I felt that special connection 
-            with computers. Eventually I realized that a computer is both hardware and software, where 
+            new world. That was the first time I felt a special connection 
+            with computers. Eventually I realized that a computer is made up of both hardware and software, where 
             hardware is the stuff you can see and touch, and software is the stuff you can see but not 
             touch, where the magic happens. It was not until my senior year of high school that I finally 
             decided to make the move and learn how to create my own software, that is when I discovered my 
-            passion for coding. Software is truly incredible because it is the ultimate tool, a tool that 
+            passion for software development. Software is truly incredible because it is the ultimate tool, a tool that 
             can turn into anything you wish it to be, it is the closest thing to magic that exists in the 
             world.           
 
