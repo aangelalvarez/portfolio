@@ -70,7 +70,7 @@ const Projects: React.FC = () => {
             sourceCode='https://github.com/aangelalvarez/clolor' 
             description={[
                 '● Clolor is a colorful clock app that will let you choose the font and background color of your clock from over 100+ different colors',
-                '● 3 Different Modes: clock, stopwatch, and timer',
+                '● Added 3 Different Modes: clock, stopwatch, and timer',
                 '● Built using React hooks, context, and state',
                 '● Implemented custom hour-getting functions to be able to work in any region over the world'
             ]} 
