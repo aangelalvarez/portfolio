@@ -8,7 +8,7 @@ const Skills: React.FC = () => {
             <h1 className='skillsTitle'>SKILLS</h1>
             <Skill skillName='C++' percentage={85} themeColor='rgb(13, 146, 223)'></Skill>
             <Skill skillName='Python' percentage={95} themeColor='rgb(26, 107, 200)'></Skill>
-            <Skill skillName='Javascript' percentage={90} themeColor='rgb(223, 219, 13)'></Skill>
+            <Skill skillName='Javascript' percentage={90} themeColor='#b5b400)'></Skill>
             <Skill skillName='Java' percentage={55} themeColor='rgb(255, 0, 0)'></Skill>
             <Skill skillName='Typescript' percentage={90} themeColor='rgb(13, 146, 223)'></Skill>
             <Skill skillName='HTML' percentage={80} themeColor='rgb(241, 131, 6)'></Skill>
